@@ -1,0 +1,27 @@
+#floatingWindow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: #7341e1;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+#floatHeader {
+    background-color: #fb8f00;
+    padding: 10px;
+    cursor: move;
+}
+
+#windowContent {
+    padding: 10px;
+}
+
+#closeBtn {
+    float: right;
+    cursor: pointer;
+}
